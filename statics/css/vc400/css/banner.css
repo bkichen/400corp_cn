@@ -1,0 +1,25 @@
+/* CSS Document */
+
+*{margin:0;padding:0;list-style-type:none;}
+a,img{border:0;}
+
+
+.banner{width:100%;overflow:hidden;height:360px;position:relative;z-index: 0;}
+.banList{position:absolute;left:50%;margin-left:-960px;height:360px}
+.banList li{height:360px;opacity:0;position:absolute;transform:scale(0);transition:transform 0.5s ease 0s, opacity 1.5s ease 0s;z-index:1;}
+.banList li.active{opacity:1;transform:scale(1);z-index:2;}
+.fomW{position:absolute;bottom:20px;left:50%;height:20px;z-index:9;width:1000px;margin-left:-500px}
+.jsNav{text-align:center;}
+.jsNav a{display:inline-block;background:#fff;width:15px;height:15px;border-radius:50%;margin:0 5px;}
+.jsNav a.current{background:#fc8f0f;cursor:pointer}
+.banner img{text-align:center}
+
+/* 快捷入口 */
+
+	*{margin: 0;padding: 0;list-style: none;}
+	#floatTool{ width:100px; height: auto; padding-bottom:10px; margin-bottom:5px;	overflow:hidden;position:absolute; 	left:1%; top:130px;	z-index:1000; background: #FFF; border:1px solid #F03;}
+   .floatdl{ width:100%; margin:0px auto; height:auto; overflow:hidden;}
+      .floatdl dt{ height:40px; line-height:40px; font-size:18px; font-family:"微软雅黑"; text-align:center; color:#FFF; background:#F00; font-weight:bolder; margin-bottom:15px;}
+	  .floatdl dd{ height:30px; line-height:30px; text-align:center;font-family:"微软雅黑"; font-size:16px;}
+	  .floatdl dd a{ text-decoration:none; color:#333;}
+	  .floatdl dd a:hover{ color:#F00; font-weight:bolder;}
